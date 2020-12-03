@@ -10,11 +10,11 @@
 ## Instructions: 
 ## 1) Extract "Data_Phospho-TMT.zip" into ./Data
 ## 2) Extract "Databases_Phospho-TMT.zip" into ./Databases
-## 3) Ensure "averageMaxQuant.R" is placed in ./Functions
-## 4) Install missing libraries ("Install necessary libraries"), 
+## 3) Extract "Functions.zip" into ./Functions
+## 4) Install missing libraries ("Install necessary libraries" section in this script), 
 ##    version number used for original analysis
 ##    indicated in "Text_File_S1_Session_Info_Phospho-TMT.txt"
-## 5) Run this wrapper script ("source scripts")
+## 5) Run this wrapper script ("Source scripts" section in this script)
 ##
 ## Author: Florian Weiland
 ##
