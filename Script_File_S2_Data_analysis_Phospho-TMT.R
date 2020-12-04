@@ -861,12 +861,6 @@ table.fig$protein.name.long <- sub(
   table.fig$protein.name.long
 )
 
-table.fig$protein.name.long <- sub(
-  "M-phase-specific PLK1-interacting protein",
-  "Tricothiodystrophy non-photosensitive 1 protein",
-  table.fig$protein.name.long
-)
-
 ## Extract phosphorylation motif
 
 table.fig$motif <- substring(
