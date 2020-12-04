@@ -257,12 +257,11 @@ ggplot(data.box, aes(x = TMT.label, y = VSN.Intensity, fill = Group)) +
     axis.title = element_text(size = 16),
     axis.text.y = element_text(family = "Roboto Mono", size = 14),
     axis.line = element_line(
-		  color = "black", 
-      size = 1,
-		  linetype = "solid"
-	  ),
-    axis.ticks = element_line(size = 1),
-    axis.ticks.length = unit(.20, "cm")
+	color = "black", 
+      	size = 1,
+	linetype = "solid"
+    ),
+    axis.ticks = element_line(size = 1)
   ) +
   labs(
     x = "TMT label",
